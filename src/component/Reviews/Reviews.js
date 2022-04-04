@@ -27,7 +27,8 @@ import ReviewDetails from "../ReviewDetails/ReviewDetails";
 import "./Reviews.css";
 const Reviews = () => {
   const [car, setCar] = useState([]);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
+
   useEffect(() => {
     fetch("cars.json")
       .then((res) => res.json())
@@ -38,7 +39,7 @@ const Reviews = () => {
       {car.map((product) => (
         <ReviewDetails product={product} key={product.id}></ReviewDetails>
       ))}
-      <button onClick={()=> navigate('/review')}>oihsd</button>
+      <button onClick={() => navigate("/review")}>oihsd</button>
     </div>
   );
 };
