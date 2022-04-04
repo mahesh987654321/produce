@@ -1,0 +1,16 @@
+.aboutmain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 0 auto;
+  gap: 6rem;
+  margin-top: 7rem;
+}
+.aboutImg {
+  width: 100%;
+}
+.aboutH1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
