@@ -48,7 +48,7 @@ const HomePage = () => {
       <div>
         <div>
           <div>
-            <h1 className="lastH1">Customer reviews(3)</h1>
+            <h1 className="lastH1">Customer reviews(6)</h1>
             {<Reviews />}
 
             <button onClick={(man) => navigate("/review")} className="last-btn">
