@@ -1,9 +1,8 @@
 # Car Store
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
+## Available Details
 
 this is a car store which is owned by Mahesh Biswas
-
-
+This website has Home,about,reviews, section
+Everything Is up-to-date here
+Best Of Luck
