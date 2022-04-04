@@ -50,8 +50,7 @@ const HomePage = () => {
           <div>
             <h1 className="lastH1">Customer reviews(3)</h1>
             {<Reviews />}
-
-            <button onClick={() => navigate("/review")} className="last-btn">
+            <button onClick={(man) => navigate("/review")} className="last-btn">
               click
             </button>
           </div>

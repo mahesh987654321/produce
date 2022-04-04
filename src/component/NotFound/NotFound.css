@@ -1,0 +1,10 @@
+.not {
+  width: 100%;
+}
+.mkrg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.found {
+  text-align: center;
+}
