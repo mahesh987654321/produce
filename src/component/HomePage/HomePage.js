@@ -1,5 +1,7 @@
 import React from "react";
 import "./HomePage.css";
+import Reviews from "../Reviews/Reviews";
+import CustomLink from "../CustomeLink/CustomeLink";
 const HomePage = () => {
   return (
     <>
@@ -17,7 +19,16 @@ const HomePage = () => {
               our lineup of capable SUVs below. We are Providing best cars for
               our customers. Please connect With us.
             </p>
-            <button className="btn">EXPLORE HERE</button>
+            <button className="btn">
+              <a
+                target={"_blank"}
+                rel="noreferrer"
+                href="https://en.wikipedia.org/wiki/Car"
+              >
+                {" "}
+                EXPLORE HERE
+              </a>
+            </button>
           </div>
         </div>
         <div className="rightSide">
@@ -31,7 +42,15 @@ const HomePage = () => {
         </div>
       </div>
       <div>
-        <h1>name</h1>
+        <div>
+          <div>
+            <h1 className="lastH1">Customer reviews(3)</h1>
+            {<Reviews></Reviews>}
+            <CustomLink className="link" to={"/review"}>
+              <button className="last-btn">click</button>
+            </CustomLink>
+          </div>
+        </div>
       </div>
     </>
   );

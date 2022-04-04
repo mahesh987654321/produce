@@ -34,3 +34,26 @@
 .p {
   color: dimgray;
 }
+.lastH1 {
+  text-align: center;
+}
+.last-btn {
+  display: flex;
+  margin: 0 auto;
+
+  width: 22%;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+  background-color: darkgray;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.link {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
