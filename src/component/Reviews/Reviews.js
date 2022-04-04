@@ -10,7 +10,7 @@ const Reviews = () => {
   }, []);
   return (
     <div className="product">
-      {car.map((product) => (
+      {car.slice(0,3).map((product) => (
         <ReviewDetails product={product} key={product.id}></ReviewDetails>
       ))}
     </div>

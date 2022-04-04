@@ -1,8 +1,12 @@
 import React from "react";
 import "./HomePage.css";
+// import Reviews from "../Reviews/Reviews";
+
+import { useNavigate } from "react-router-dom";
 import Reviews from "../Reviews/Reviews";
-import CustomLink from "../CustomeLink/CustomeLink";
+
 const HomePage = () => {
+  const navigate = useNavigate();
   return (
     <>
       <div className="combine">
@@ -45,10 +49,11 @@ const HomePage = () => {
         <div>
           <div>
             <h1 className="lastH1">Customer reviews(3)</h1>
-            {<Reviews></Reviews>}
-            <CustomLink className="link" to={"/review"}>
-              <button className="last-btn">click</button>
-            </CustomLink>
+            {<Reviews />}
+
+            <button onClick={() => navigate("/review")} className="last-btn">
+              click
+            </button>
           </div>
         </div>
       </div>
