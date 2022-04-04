@@ -39,7 +39,6 @@ const Reviews = () => {
       {car.map((product) => (
         <ReviewDetails product={product} key={product.id}></ReviewDetails>
       ))}
-      <button onClick={() => navigate("/review")}>oihsd</button>
     </div>
   );
 };

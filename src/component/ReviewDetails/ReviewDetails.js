@@ -1,8 +1,8 @@
 import React from "react";
 import "./ReviewDetails.css";
 const ReviewDetails = ({ product }) => {
-  const { name, rating, images, details } = product;
-
+  const { name, rating, images, details  } = product;
+console.log(product);
   return (
     <div className="detailsMain">
       <div>
