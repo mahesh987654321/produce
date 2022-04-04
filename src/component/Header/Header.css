@@ -1,0 +1,13 @@
+.customelink {
+  text-decoration: none;
+  padding-left: 1rem;
+}
+.allCustomeLink {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  padding-top: 0.5rem;
+}
+hr {
+  width: 85%;
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Mahesh Babu",
+    "details": "This is a very Nice car, Everybody Should buy this",
+    "id": 1,
+    "images": "https://images.indianexpress.com/2021/04/Mahesh-Babu-1200by667.jpg",
+    "rating": "5 star"
+  },
+  {
+    "name": "Sai Pallavi",
+    "details": "What a car, I like this ",
+    "id": 2,
+    "images": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Sai_Pallavi_at_Mca-pre-release-event.jpg",
+    "rating": "4.7 star"
+  },
+  {
+    "name": "Allu Arjun",
+    "details": "I am very satisfied to buy this car",
+    "id": 3,
+    "images": "https://st1.bollywoodlife.com/wp-content/uploads/2020/03/allu-arjun-feature.jpg",
+    "rating": "4.3 star"
+  },
+  {
+    "name": "Dulquar Salman",
+    "details": "From today this will be my main car ",
+    "id": 4,
+    "images": "https://static.toiimg.com/photo/msid-90322592/90322592.jpg?51764",
+    "rating": "4.8 star"
+  },
+  {
+    "name": "Tara",
+    "details": "Such a amazing car, I like it so much",
+    "id": 5,
+    "images": "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2019/05/17/824610-tarasutaria-051819.jpg",
+    "rating": "4.5 star"
+  },
+  {
+    "name": "Ranveer Kapoor",
+    "details": "Owwhh  what a car, This is best",
+    "id": 6,
+    "images": "https://cdn.wionews.com/sites/default/files/styles/story_page/public/2020/06/07/143716-untitled-design-92.jpg",
+    "rating": "4.9 star"
+  }
+]

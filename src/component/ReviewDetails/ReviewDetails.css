@@ -1,0 +1,15 @@
+.image {
+  width: 50%;
+  margin: 0 auto;
+}
+.detailsMain {
+  display: grid;
+  /* grid-template-columns: repeat(2, 1fr); */
+  justify-content: space-between;
+  background-color: rgb(237, 226, 216);
+  border-radius: 2rem;
+}
+.detailsP {
+  font-size: 1.2rem;
+  font-weight: 700;
+}

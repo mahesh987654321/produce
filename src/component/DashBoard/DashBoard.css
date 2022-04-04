@@ -1,0 +1,4 @@
+.allChart {
+  display: flex;
+  flex-wrap: wrap;
+}

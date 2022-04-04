@@ -1,0 +1,36 @@
+.combine {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 90%;
+  margin: 0 auto;
+}
+.leftSide {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+}
+.rightSide {
+  display: flex;
+  justify-content: center;
+}
+.img {
+  width: 90%;
+}
+.btn {
+  width: 28%;
+  height: 3rem;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: black;
+  background-color: wheat;
+  border-radius: 0.7rem;
+}
+.firstH1 {
+  color: aqua;
+}
+.secondH1 {
+  color: cornflowerblue;
+}
+.p {
+  color: dimgray;
+}
